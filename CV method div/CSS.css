@@ -7,11 +7,6 @@
 	     url('Police/cac_champagne-webfont	.svg#webfont') format('svg');
 }
 
-body
-{
-	background-image: url(Fond/Neige.jpg);
-}
-
 h1
 {
 	font-family: 'MaPolice', Arial, serif;
@@ -29,15 +24,6 @@ h2
 	font-family: 'MaPolice', Arial, serif;
 	font-size : 60px;
 	color: purple;
-	/*margin: 20px;*/
-	padding: 20px;
-}
-
-ul
-{
-	width: 50%;
-	border: 3px black inset;
-	box-shadow:  8px 8px 0px black;
 }
 
 li
