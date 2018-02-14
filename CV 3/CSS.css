@@ -1,0 +1,57 @@
+@font-face{ 
+	font-family: 'MaPolice';
+	src: url('Police/cac_champagne-webfont.eot');
+	src: url('Police/cac_champagne-webfont.eot?iefix') format('eot'),
+	     url('Police/cac_champagne-webfont.woff') format('woff'),
+	     url('Police/cac_champagne-webfont.ttf') format('truetype'),
+	     url('Police/cac_champagne-webfont	.svg#webfont') format('svg');
+}
+
+body
+{
+	background-image: url(Fond/Neige.jpg);
+}
+
+h1
+{
+	font-family: 'MaPolice', Arial, serif;
+	font-size : 120px;
+}
+
+p
+{
+	font-family: 'MaPolice', Arial, serif;
+	font-size: 35px
+}
+
+h2
+{
+	font-family: 'MaPolice', Arial, serif;
+	font-size : 60px;
+	color: purple;
+	/*margin: 20px;*/
+	padding: 20px;
+}
+
+ul
+{
+	width: 50%;
+	border: 3px black inset;
+	box-shadow:  8px 8px 0px black;
+}
+
+li
+{
+	font-family: 'MaPolice', Arial, serif;
+	font-size: 35px
+}
+
+.photo
+{
+	float: left;
+}
+
+.center
+{
+	text-align: center;
+}
