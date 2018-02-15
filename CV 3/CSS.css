@@ -9,49 +9,74 @@
 
 body
 {
-	background-image: url(Fond/Neige.jpg);
+	font-family: "MaPolice", Arial, Helvetica, sans-serif;
+	background: url(Fond/Neige.jpg);
+	display: flex;
+	top: 0px;
+	bottom: 0px;
+}
+
+.lisere
+{
+	position: absolute;
+	background-color: black;
+	width:10%;
+	top: 2px;
+	bottom: 2px;
+	left: 2px;
+	border-radius: 10px;
+}
+
+.CV
+{	position: relative;
+	width:89.9%;
+	left: 10%;
+}
+
+#entete
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.element:nth-child(1)
+{
+	order: 2;
+}
+
+.element:nth-child(2)
+{
+	flex: 2;
+	order: 1;
+}
+
+h1, h1 + p
+{
+	text-align: center;
 }
 
 h1
 {
-	font-family: 'MaPolice', Arial, serif;
-	font-size : 120px;
-}
-
-p
-{
-	font-family: 'MaPolice', Arial, serif;
-	font-size: 35px
+	font-size: 80px;
 }
 
 h2
 {
-	font-family: 'MaPolice', Arial, serif;
-	font-size : 60px;
 	color: purple;
-	/*margin: 20px;*/
-	padding: 20px;
+	font-size: 60px;
 }
 
-ul
+p , li
 {
-	width: 50%;
-	border: 3px black inset;
-	box-shadow:  8px 8px 0px black;
+	font-size: 40px;
 }
 
-li
+#conteneur
 {
-	font-family: 'MaPolice', Arial, serif;
-	font-size: 35px
-}
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
 
-.photo
-{
-	float: left;
-}
-
-.center
-{
-	text-align: center;
 }

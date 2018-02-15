@@ -1,9 +1,9 @@
-/* #conteneur
+#conteneur
 {
     border: black solid 15px;
     display: flex;
-    height: 100px;
-    width: 600px;
+    height: max-content;
+    width:max-content;
 }
 
 .element:nth-child(1)
@@ -58,6 +58,7 @@
 
 
 .element:nth-child(8)
+{
     background-color: blueviolet;
     height: 33%;
     width: 33%;
@@ -68,10 +69,10 @@
     background-color: green;
     height: 33%;
     width: 33%;
-} */
+}
 
 /*deuxieme partie*/
-
+/* 
 nav
 {
     display: inline-block;
@@ -85,4 +86,6 @@ section
     display: inline-block;    
     border: 1px solid blue;
     vertical-align: top;
-}
+} */
+
+/*troisiem block*/
